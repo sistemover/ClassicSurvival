@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de2e3d918830c2b42b4606a38b15c23f, type: 3}
+  m_Name: Gun
+  m_EditorClassIdentifier: 
+  name: Pistola
+  shortDescription: "Peque\xF1a pistola portatil de 2mm, quizas podrias herir un gato
+    con ella."
+  LongDescription: "No tengo ganas de hacer una descripci\xF3n larga, asique conformemonos
+    con esto:\n\n \"wowowowowo!!\""
+  maxAmount: 15
+  isStackable: 0
+  isUsable: 0
+  isEquipment: 1
+  icon: {fileID: 21300000, guid: 41d22c4044dea9e47a9a73f1aff87667, type: 3}
+  gameObject: {fileID: 1871878725886590, guid: 436d63e70b45aa846adafa7cb1d98f3d, type: 2}
+  equipSlot: 2
+  equipMainType: 0
+  equipSubType: 1

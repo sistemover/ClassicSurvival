@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de2e3d918830c2b42b4606a38b15c23f, type: 3}
+  m_Name: Bullets
+  m_EditorClassIdentifier: 
+  name: Balas de Pistola
+  shortDescription: Balas de Pistola Calibre 9 mm, ideales para herir de gravedad
+    a humanos normales, ahora si los usas con ejem.... pos...
+  LongDescription: "La bida da vueltas y vueltas como estas balas de 9mm, usalas en
+    pistolas pulentas o corcheteras (Como la que traes por defeto), da igual, mientras
+    no est\xE9s nervios@ estimo que podr\xE1s darle a lo que sea.\n\nOjo, no son muy
+    efectivas a quemaropa, aunque no lo pareza, por que de los nervios no apuntar\xE1s
+    correctamente ni por suerte, asique recomiendo cambies de estrategia para combates
+    a corta distancia.\n\nRecuerda, consejos del buen tutorial, guey."
+  maxAmount: 250
+  isStackable: 1
+  isUsable: 0
+  isEquipment: 1
+  icon: {fileID: 21300000, guid: 2e0df52b40b2f04479cdc3221f30574b, type: 3}
+  gameObject: {fileID: 1871878725886590, guid: 436d63e70b45aa846adafa7cb1d98f3d, type: 2}
+  equipSlot: 2
+  equipMainType: 1
+  equipSubType: 1

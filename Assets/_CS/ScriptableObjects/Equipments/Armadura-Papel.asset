@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de2e3d918830c2b42b4606a38b15c23f, type: 3}
+  m_Name: Armadura-Papel
+  m_EditorClassIdentifier: 
+  name: Armadura de Papel
+  shortDescription: "Una armadura de papel para protectores de Atena, equipala para
+    impulsar m\xE1s tu Cosmos y tu defensa contra mordeduras."
+  LongDescription: " De entre las 108 constelaciones confirmadas 100% real no Fake
+    declaradas como protectoras de la diosa de la guerra que aborrece las guerras
+    y nunca da guerra y se deja secuestrar siempre ATHENA!!!, quien siempre deja que
+    mueran sus basallos de formas horrendas y sacrificadas y tiene un discutible metodo
+    de selecci\xF3n de autoridades con doble o hasta triple moral para comandar sus
+    ejercitos.\n Joder, a lo que iba, de entre las 108 constelaciones, divididas en
+    eslabones, se encuentran en el lugar m\xE1s bajo las armaduras de papel, las cuales
+    ni para entrenamientos se usan, pero, son realmente efectivas en canalizar las
+    mordeduras de... digamos... zombies...\n Se pueden hacer con papeles de diversas
+    fuentes y huincha extra resistente de Athena."
+  maxAmount: 100
+  isStackable: 1
+  isUsable: 0
+  isEquipment: 1
+  icon: {fileID: 21300000, guid: 00aceb863559e3745b8f48a2b28be546, type: 3}
+  gameObject: {fileID: 1414434577741746, guid: b2881f71c614f6549acb9681d7b180c1, type: 2}
+  equipSlot: 0
+  equipMainType: 0
+  equipSubType: 0

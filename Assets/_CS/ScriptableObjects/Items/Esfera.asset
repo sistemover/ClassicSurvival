@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f71802b3bc84f3943865f143456063f6, type: 3}
+  m_Name: Esfera
+  m_EditorClassIdentifier: 
+  name: Esfera
+  shortDescription: "Peque\xF1a esfera blanca, sirve para probar lo esf\xE9rico que
+    es la tierra, metaforicamente hablando, claro..."
+  LongDescription: " En tiempos ancestrales se cre\xEDa que la tierra era un plano
+    cuyos bordes sostenian el final del mundo y universo.\n\n Luego de comprobar lo
+    contrario (o sea, tierra esf\xE9rica) mediante ritos paganos, se ha sostenido
+    hasta la actualidad su forma casi esf\xE9rica, quitando de lado claro, algunos
+    problemas producto de las nuevas teor\xEDas paganas modernas como que esta gira
+    sobre su propio eje (valla tonter\xEDa).\n\n Por dichas afirmaciones es que se
+    han creado numerosas esferas poligonales que insisten en recordar a aquellos retrasados
+    modernos, lo equivocados que estan, ya que al poderse fabricar esferas esfericas
+    y no planas se prueba que la tierra misma es esferica."
+  maxAmount: 0
+  isStackable: 0
+  isUsable: 0
+  isEquipment: 0
+  icon: {fileID: 21300000, guid: 753cadbc62519c74f8ca6f7ffaa6a3ab, type: 3}
+  gameObject: {fileID: 1725813563673796, guid: 59f430d1351f52c40a94b163ab740b6e, type: 2}

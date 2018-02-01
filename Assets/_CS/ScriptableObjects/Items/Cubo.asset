@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f71802b3bc84f3943865f143456063f6, type: 3}
+  m_Name: Cubo
+  m_EditorClassIdentifier: 
+  name: Cubo
+  shortDescription: "Peque\xF1o cubo blanco, no sirve para nada."
+  LongDescription: "Se dice en un lenguaje antiguo y ya casi extinto: \n\n\" blap
+    eeuqe kdnalow kef askldas f askdfn kfnsaflas infas \"\n\n Lo cual no se sabe que
+    significa, pero se cree tenga que ver con el cubo blanco ya que est\xE1 escrito
+    en el (DUH!!), aunque su romanizaci\xF3n podr\xEDa torcer su significado, por
+    lo que aparentemente en nuestros tiempos, este peque\xF1o cubo blanco resulta
+    que no sirve para nada, aunque puede ser consumido."
+  maxAmount: 0
+  isStackable: 0
+  isUsable: 1
+  isEquipment: 0
+  icon: {fileID: 21300000, guid: 0e734119cae3812469cbd0dbaabef9f4, type: 3}
+  gameObject: {fileID: 1963493794917144, guid: 99ac5aff179ec6a43baa0c5b93f70b41, type: 2}
