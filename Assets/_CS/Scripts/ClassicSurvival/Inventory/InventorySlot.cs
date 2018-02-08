@@ -353,6 +353,5 @@ namespace ClassicSurvival
 		}
 
 		#endregion
-
 	}
 }
