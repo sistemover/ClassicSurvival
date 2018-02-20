@@ -2367,7 +2367,7 @@ MonoBehaviour:
   runSpeed: 3.5
   rotateSpeed: 50
   toGround: 0.5
-  onGround: 1
+  onGround: 0
   run: 0
   lockOn: 0
 --- !u!114 &114264353598162228
@@ -2459,7 +2459,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1655102159513400}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 185e6f3564e18564cb0978699e0fd719, type: 3}
   m_Name: 

@@ -16,9 +16,9 @@ namespace ClassicSurvival
 		public Vector3 moveDir;
 
 		[Header("Stats")]
-		public float moveSpeed = 3;
+		public float moveSpeed = 0.7f;
 		public float runSpeed = 3.5f;
-		public float rotateSpeed = 5f;
+		public float rotateSpeed = 50f;
 		public float toGround = 0.5f;
 
 		[Header("States")]
