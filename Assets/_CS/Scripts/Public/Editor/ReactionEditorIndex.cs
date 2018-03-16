@@ -19,3 +19,12 @@ public class DestroyGameObjectEditor : ReactionEditor
 		return "Destroy GameObject Reaction";
 	}
 }
+
+[CustomEditor(typeof(AutoDestroyReaction))]
+public class AutoDestroyEditor : ReactionEditor
+{
+	protected override string GetFoldoutLabel ()
+	{
+		return "Auto Destroy Reaction";
+	}
+}

@@ -6,6 +6,30 @@ namespace ClassicSurvival
 {
 	public class SpawnPoint : MonoBehaviour 
 	{
+		public string spawnPointName;
+
+		private static List<SpawnPoint> allSpawnPoints = new List<SpawnPoint> ();
+
+		private void OnEnable()
+		{
+			allSpawnPoints.Add (this);
+		}
+
+		private void OnDisable ()
+		{
+			allSpawnPoints.Remove (this);
+		}
+
+		public static Transform FindSpawnPoints (string pointName)
+		{
+			for (int i = 0; i < allSpawnPoints.Count; i++) {
+				if (allSpawnPoints [i].spawnPointName == pointName)
+					return allSpawnPoints [i].transform;
+			}
+
+			return null;
+		}
+
 		void OnDrawGizmos()
 		{
 			Gizmos.color = Color.blue;

@@ -107,9 +107,11 @@ namespace ClassicSurvival
 		{
 			string startingPositionName = "";
 			playerSaveData.Load(startingPositionKey, ref startingPositionName);
-			GameObject startingPosition = GameObject.Find(startingPositionName);
-			transform.position = startingPosition.transform.position;
-			transform.rotation = startingPosition.transform.rotation;
+
+			Transform spawnPoint = SpawnPoint.FindSpawnPoints (startingPositionName);
+
+			transform.position = spawnPoint.position;
+			transform.rotation = spawnPoint.rotation;
 		}
 
 		void JoinPlayer()

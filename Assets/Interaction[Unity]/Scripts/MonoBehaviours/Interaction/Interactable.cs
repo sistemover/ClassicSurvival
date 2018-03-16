@@ -3,7 +3,6 @@ using ClassicSurvival;
 
 public class Interactable : MonoBehaviour
 {
-    public Transform interactionLocation;
     public ConditionCollection[] conditionCollections = new ConditionCollection[0];
     public ReactionCollection defaultReactionCollection;
 
