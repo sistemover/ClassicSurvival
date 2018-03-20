@@ -13,6 +13,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   conditions:
   - {fileID: 114204677131166488}
+  - {fileID: 114201930672349110}
+--- !u!114 &114201930672349110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: Kokun
+  m_EditorClassIdentifier: 
+  description: Kokun
+  satisfied: 0
+  hash: 914660413
 --- !u!114 &114204677131166488
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25,5 +40,5 @@ MonoBehaviour:
   m_Name: Void
   m_EditorClassIdentifier: 
   description: Void
-  satisfied: 0
+  satisfied: 1
   hash: 1917417168
