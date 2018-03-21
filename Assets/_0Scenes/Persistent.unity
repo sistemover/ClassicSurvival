@@ -5632,6 +5632,8 @@ GameObject:
   - component: {fileID: 1610409033}
   - component: {fileID: 1610409034}
   - component: {fileID: 1610409036}
+  - component: {fileID: 1610409037}
+  - component: {fileID: 1610409038}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -5744,6 +5746,37 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   condiciones: {fileID: 11400000, guid: 477df3740f256694c95d5e8d3f1ec309, type: 2}
+--- !u!114 &1610409037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1610409029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8173f44a87174894d87df102f0b0c035, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Diccionario:
+  - Nombre: Cubo
+    Path: /Resources/Prefabs/
+--- !u!114 &1610409038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1610409029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f85773e47be619047a26a9da6d700ed2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MyList:
+  - AnGO: {fileID: 0}
+    AnInt: 0
+    AnFloat: 20
+    AnVector3: {x: 0, y: 0, z: 0}
+    AnIntArray: 0c000000
 --- !u!1 &1628294625
 GameObject:
   m_ObjectHideFlags: 0
