@@ -4,6 +4,19 @@ using UnityEngine;
 
 public class DiccionarioRecursos : MonoBehaviour 
 {
+	#region Singleton
+	public static DiccionarioRecursos instance;
+	void Awake ()
+	{
+		if(instance != null)
+		{
+			Debug.Log ("Hay más de un Diccionario!!");
+			return;
+		}
+		instance = this;
+	}
+	#endregion
+
 	[System.Serializable]
 	public class Recurso
 	{

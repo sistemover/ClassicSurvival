@@ -34,11 +34,23 @@ public class SimpleGameManager : MonoBehaviour
 		}
 	}
 
+	private LocalizationLocalizationManager m_LocalizationManager;
+	public LocalizationLocalizationManager localizationManager
+	{
+		get
+		{
+			if (m_LocalizationManager == null)
+				m_LocalizationManager = gameObject.GetComponent<LocalizationLocalizationManager> ();
+			return m_LocalizationManager;
+		}
+	}
+
 	//**************************************************
 
 	void Start () 
 	{
-		
+		Debug.Log ("SimpleGameManager");
+		localizationManager.Init ();
 	}
 	
 	void Update () 

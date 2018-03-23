@@ -1,0 +1,82 @@
+{
+	"text":
+	[
+		{
+			"key"   : "items",
+			"value" : "localizedItems_es.json"
+		},
+				{
+			"key"   : "titulo_opciones",
+			"value" : "Seleccione Lenguaje"
+		},
+		{
+			"key"   : "titulo_main",
+			"value" : "Test Game"
+		},
+		{
+			"key"   : "titulo_pausa",
+			"value" : "Pausa"
+		},
+				{
+			"key"   : "titulo_comandos",
+			"value" : "Comandos"
+		},
+		{
+			"key"   : "boton_inicio",
+			"value" : "Iniciar"
+		},
+		{
+			"key"   : "boton_opciones",
+			"value" : "Opciones"
+		},
+		{
+			"key"   : "boton_salir",
+			"value" : "Salir"
+		},
+		{
+			"key"   : "boton_volver",
+			"value" : "Volver"
+		},
+				{
+			"key"   : "boton_inventario",
+			"value" : "Inventario"
+		},
+				{
+			"key"   : "boton_pausa",
+			"value" : "Pausar"
+		},
+				{
+			"key"   : "boton_atacar",
+			"value" : "Atacar"
+		},
+				{
+			"key"   : "boton_defender",
+			"value" : "Defender"
+		},
+				{
+			"key"   : "boton_mainmenu",
+			"value" : "Menú Principal"
+		}
+	],
+	"items":
+	[
+		{
+			"key"              : "item_cubo",
+			"name"             : "Cube",
+			"shortdescription" : "Add short description, Cube",
+			"longdescription"  : "Add long description, Cube"
+		},
+		{
+			"key"              : "item_esfera",
+			"name"             : "Sphere",
+			"shortdescription" : "Add short description, Sphere",
+			"longdescription"  : "Add long description, Sphere"
+		},
+		{
+			"key"              : "item_cilindro",
+			"name"             : "Cylinder",
+			"shortdescription" : "Add short description, Cylinder",
+			"longdescription"  : "Add long description, Cylinder"
+		}
+	]
+}
