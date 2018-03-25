@@ -6,20 +6,18 @@ using UnityEngine.UI;
 public class LocalizationText : MonoBehaviour 
 {
 	public string key;
+	private LocalizationLocalizationManager localizationManager;
 
-	void Start()
+	void Awake()
 	{
+		localizationManager = SimpleGameManager.instance.localizationManager;
+		localizationManager.onLocalizationChangedCallback += CargarTexto;
 		Debug.Log ("LocalizationText");
-	}
-
-	void Update()
-	{
-		CargarTexto ();
 	}
 
 	void CargarTexto()
 	{
 		Text t = GetComponent<Text> ();
-		t.text = SimpleGameManager.instance.localizationManager.GetLocalizedText (key);
+		t.text = localizationManager.GetLocalizedText (key);
 	}
 }

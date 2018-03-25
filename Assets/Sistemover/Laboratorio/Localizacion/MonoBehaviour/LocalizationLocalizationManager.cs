@@ -5,15 +5,25 @@ using System.IO;
 
 public class LocalizationLocalizationManager : MonoBehaviour 
 {
+	//LLAVES
 	public string StartLanguajeKey;
 
+	//DICCIONARIOS
 	private Dictionary<string, string> localizedText;
 	private Dictionary<string, ItemText> localizedItem;
+
+	//MENSAJES
 	private string missingTextString = "Localized text not found";
+
+	//DELEGATES
+	public delegate void OnlocalizacionChanged();
+	public OnlocalizacionChanged onLocalizationChangedCallback;
+
+	//**************************************************************************************************************
 	
 	public void Init () 
 	{
-		LoadLocalizedText (StartLanguajeKey);
+		SelectLanguage (StartLanguajeKey);
 		Debug.Log ("LocalizationManager");
 	}
 
@@ -50,5 +60,20 @@ public class LocalizationLocalizationManager : MonoBehaviour
 			result = localizedText [key];
 		}
 		return result;
+	}
+
+	//Validación e invocación del Callback
+	public void UpdateText()
+	{
+		if (onLocalizationChangedCallback != null) {
+			onLocalizationChangedCallback.Invoke ();
+		}
+	}
+
+	//Botón de cambio de idioma, invoca el Callback onLocalizationChangedCallback
+	public void SelectLanguage(string fileName)
+	{
+		LoadLocalizedText (fileName);
+		UpdateText ();
 	}
 }

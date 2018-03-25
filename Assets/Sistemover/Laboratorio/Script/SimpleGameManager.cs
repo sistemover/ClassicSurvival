@@ -45,11 +45,23 @@ public class SimpleGameManager : MonoBehaviour
 		}
 	}
 
+	private LocalizationCanvasController m_LocalizationCanvasController;
+	public LocalizationCanvasController localizationCanvasController
+	{
+		get
+		{
+			if (m_LocalizationCanvasController == null)
+				m_LocalizationCanvasController = gameObject.GetComponent<LocalizationCanvasController> ();
+			return m_LocalizationCanvasController;
+		}
+	}
+
 	//**************************************************
 
 	void Start () 
 	{
 		Debug.Log ("SimpleGameManager");
+		localizationCanvasController.Init ();
 		localizationManager.Init ();
 	}
 	

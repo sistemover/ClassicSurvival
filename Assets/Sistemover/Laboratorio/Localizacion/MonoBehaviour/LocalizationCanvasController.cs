@@ -13,10 +13,26 @@ public class LocalizationCanvasController : MonoBehaviour
 	public GameObject MPMainPanel;
 	public GameObject MPOptionPanel;
 
+	public void Init()
+	{
+		GameObject[] menus = {MenuInicio, MenuPausa, IngameCommands, MIMainPanel, MIOptionPanel, MPMainPanel, MPOptionPanel};
+		for (int i = 0; i < menus.Length; i++) {
+			menus [i].SetActive (true);
+		}
+
+		MenuPausa.SetActive (false);
+		IngameCommands.SetActive (false);
+		MIOptionPanel.SetActive (false);
+		MPOptionPanel.SetActive (false);
+
+		Debug.Log ("LocalizationCanvasController");
+	}
+
 	public void BotonIniciar()
 	{
 		MenuInicio.SetActive (!MenuInicio.activeInHierarchy);
 		IngameCommands.SetActive (!IngameCommands.activeInHierarchy);
+		SimpleGameManager.instance.localizationManager.UpdateText ();
 	}
 	public void BotonOpciones()
 	{
