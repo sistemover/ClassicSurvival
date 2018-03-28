@@ -12,7 +12,7 @@ public class LocalizationText : MonoBehaviour
 	{
 		localizationManager = SimpleGameManager.instance.localizationManager;
 		localizationManager.onLocalizationChangedCallback += CargarTexto;
-		Debug.Log ("LocalizationText");
+		//Debug.Log ("LocalizationText");
 	}
 
 	void CargarTexto()

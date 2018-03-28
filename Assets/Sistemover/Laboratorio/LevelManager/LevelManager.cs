@@ -12,13 +12,10 @@ public class LevelManager : MonoBehaviour
 		public string Path;
 	}
 
-	private DiccionarioRecursos ins;
-
 	public List<Instanciador> Instanciadores = new	List<Instanciador>();
 
 	void Start()
 	{
-		ins = DiccionarioRecursos.instance;
 		Instanciar ();
 	}
 

@@ -62,21 +62,21 @@
 	[
 		{
 			"key"              : "item_cubo",
-			"name"             : "Cube",
-			"shortdescription" : "Add short description, Cube",
-			"longdescription"  : "Add long description, Cube"
+			"name"             : "Cubo",
+			"shortdescription" : "Añadir descripción Corta, Cubo",
+			"longdescription"  : "Añadir descripción Larga, Cubo"
 		},
 		{
 			"key"              : "item_esfera",
-			"name"             : "Sphere",
-			"shortdescription" : "Add short description, Sphere",
-			"longdescription"  : "Add long description, Sphere"
+			"name"             : "Esfera",
+			"shortdescription" : "Añadir descripción Corta, Esfera",
+			"longdescription"  : "Añadir descripción Larga, Esfera"
 		},
 		{
 			"key"              : "item_cilindro",
-			"name"             : "Cylinder",
-			"shortdescription" : "Add short description, Cylinder",
-			"longdescription"  : "Add long description, Cylinder"
+			"name"             : "Cilindro",
+			"shortdescription" : "Añadir descripción Corta, Cilindro",
+			"longdescription"  : "Añadir descripción Larga, Cilindro"
 		}
 	]
 }

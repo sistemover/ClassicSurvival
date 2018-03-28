@@ -60,7 +60,7 @@ public class SimpleGameManager : MonoBehaviour
 
 	void Start () 
 	{
-		Debug.Log ("SimpleGameManager");
+		//Debug.Log ("SimpleGameManager");
 		localizationCanvasController.Init ();
 		localizationManager.Init ();
 	}

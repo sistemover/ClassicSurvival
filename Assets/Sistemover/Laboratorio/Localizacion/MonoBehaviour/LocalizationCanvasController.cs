@@ -7,6 +7,8 @@ public class LocalizationCanvasController : MonoBehaviour
 	public GameObject MenuInicio;
 	public GameObject MenuPausa;
 	public GameObject IngameCommands;
+	public GameObject MenuInventario;
+	public GameObject MenuExaminar;
 
 	public GameObject MIMainPanel;
 	public GameObject MIOptionPanel;
@@ -15,17 +17,16 @@ public class LocalizationCanvasController : MonoBehaviour
 
 	public void Init()
 	{
-		GameObject[] menus = {MenuInicio, MenuPausa, IngameCommands, MIMainPanel, MIOptionPanel, MPMainPanel, MPOptionPanel};
-		for (int i = 0; i < menus.Length; i++) {
+		GameObject[] menus = { MenuInicio, MenuPausa, IngameCommands, MIMainPanel, MIOptionPanel, MPMainPanel, MPOptionPanel };
+		for (int i = 0; i < menus.Length; i++)
 			menus [i].SetActive (true);
-		}
 
+		MenuInicio.SetActive (false);
 		MenuPausa.SetActive (false);
-		IngameCommands.SetActive (false);
 		MIOptionPanel.SetActive (false);
 		MPOptionPanel.SetActive (false);
-
-		Debug.Log ("LocalizationCanvasController");
+		MenuInventario.SetActive (false);
+		MenuExaminar.SetActive (false);
 	}
 
 	public void BotonIniciar()
@@ -60,7 +61,9 @@ public class LocalizationCanvasController : MonoBehaviour
 	}
 	public void BotonInventario()
 	{
-		Debug.Log ("Inventario abierto!!");
+		MenuInventario.SetActive (!MenuInventario.activeInHierarchy);
+		if(MenuInventario.activeInHierarchy)
+			InventarioManager.instance.ActualizarInventario ();
 	}
 	public void BotonAtacar()
 	{

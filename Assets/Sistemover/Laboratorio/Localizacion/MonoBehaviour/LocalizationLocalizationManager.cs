@@ -13,7 +13,8 @@ public class LocalizationLocalizationManager : MonoBehaviour
 	private Dictionary<string, ItemText> localizedItem;
 
 	//MENSAJES
-	private string missingTextString = "Localized text not found";
+	private string missingTextString = "Localized text not found.";
+	private string missingItemString = "Localized Item not found.";
 
 	//DELEGATES
 	public delegate void OnlocalizacionChanged();
@@ -24,7 +25,7 @@ public class LocalizationLocalizationManager : MonoBehaviour
 	public void Init () 
 	{
 		SelectLanguage (StartLanguajeKey);
-		Debug.Log ("LocalizationManager");
+		//Debug.Log ("LocalizationManager");
 	}
 
 	public void LoadLocalizedText(string fileName)
@@ -58,6 +59,16 @@ public class LocalizationLocalizationManager : MonoBehaviour
 		if (localizedText.ContainsKey(key))
 		{
 			result = localizedText [key];
+		}
+		return result;
+	}
+
+	public ItemText GetLocalizedItem(string key)
+	{
+		ItemText result = new ItemText ();
+		result.name = missingItemString;
+		if (localizedItem.ContainsKey(key)) {
+			result = localizedItem [key];
 		}
 		return result;
 	}
